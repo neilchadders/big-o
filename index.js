@@ -50,3 +50,24 @@ function addUpToN(n){
 function addUpToNsecond(n){
     return n * (n + 1) /2
 }
+
+
+///// SPACE COMPLEXITY - amount of space in memory taken
+
+function sumArr(arr){
+    let total =0 // 1st variable
+    for(let i = 0; i<arr.length;i++){  // i is second variable
+        total += arr[i];
+    }
+    return total;
+} //The only 2 variables are total and i so O(2) simplified to O(1) space
+
+function doubleArr(arr){
+    let newArr= []// 1st variable
+    for(let i = 0; i<arr.length;i++){  // i is second variable
+        newArr.push(arr[i]); // however this will return multiple outputs it 
+                                // will be directly proportional to arr so if arr.length is 10 newArr.length will
+                                // return 10 so O(n)
+    }
+    return newArr;
+}
