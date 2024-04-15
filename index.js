@@ -71,3 +71,10 @@ function doubleArr(arr){
     }
     return newArr;
 }
+
+// Logarithim - Opposite of exponentials
+
+// log^2(8) = 3 = This means what power of 2 would === 8? 2x2x2 so it's 3
+//Lof
+
+
